@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0775ce;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .iconaMenu {
+    cursor: pointer;
+    position: relative;
+}
+
+.iconaMenu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.elementiTendina {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #0775ce;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.elementiTendina a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.elementiTendina a:hover {
+    background-color: #0775ce;
+}
+
+.show {
+    display: block;
+}
+
+.background-section {
+    background-image: url('Photo/sfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* Altezza della sezione */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 14, 14);
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container {
+    background-color: rgba(251, 251, 251, 0.945);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+}
+
+.container p {
+    font-size: 24px;
+    color: #666;
+}
+
+.buttons-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 0 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0775ce;
+    /* Nuovo colore */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #055aae;
+    /* Un blu più scuro al passaggio del mouse */
+}
